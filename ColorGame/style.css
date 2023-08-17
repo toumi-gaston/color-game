@@ -1,0 +1,89 @@
+/* CSS HEX 
+--gold: #a37a00ff;
+--kobe: #933710ff;
+--rosewood: #691312ff;
+--tyrian-purple: #5d0933ff;
+--dark-purple: #291938ff;
+--gunmetal: #042d3aff;
+--rich-black: #12403cff;
+--dark-olive-green: #586600ff;*/
+
+*{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 16px;
+
+}
+
+.gameWrapper{
+    position: fixed;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.scorePanel{
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+span{
+    border-radius: 15px;
+    margin: 1rem;
+    padding: 0.3rem 0.8rem;
+    font-size: 1.7rem;
+    background-color: rgba(255, 255, 255, 20%);
+}
+
+.btnToggle{
+    border: none;
+    box-shadow: 0px 6px 3px rgba(0, 0, 0, 0.5);
+    background-color: hotpink;
+    height: 150px;
+    width: 150px;
+    padding: 30px;
+    border-radius: 100px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: ease-in 0.1s;
+    font-weight: 500;
+    margin: 10px auto;
+}
+
+.btnToggle:hover{
+    font-size: 1.6rem;
+    height: 160px;
+    width: 160px;
+    margin: 5px auto;
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.5) ;
+}
+
+.btnResetWrapper{
+    height: 2rem;
+}
+
+.btnReset{
+    display: none;
+    background-color: transparent;
+    border: none;
+    text-decoration: underline 1px;
+    margin: 0.5rem;
+    cursor: pointer;
+}
+
+.goodWrapper{
+    height: 3rem;
+    margin-bottom: 2rem;
+}
+
+h2{
+    font-size: 2rem;
+    display: none;
+    transition: ease-in-out 1s;
+}
